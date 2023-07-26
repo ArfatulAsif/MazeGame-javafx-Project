@@ -1,6 +1,10 @@
 # MazeGame-javafx-Project
-
-<h4>To run the Game , download the MazeGame.jar file and follow the steps. </h4>
+<img src = "1.PNG" width = "480" height = "288">
+<img src = "2.PNG" width = "480" height = "288">
+<img src = "3.PNG" width = "480" height = "288">
+<img src = "4.PNG" width = "480" height = "288">
+<img src = "5.PNG" width = "480" height = "288">
+<h2>To run the Game , download the MazeGame.jar file and follow the steps. </h2>
 
 
 <h1>Step : 1</h1>
