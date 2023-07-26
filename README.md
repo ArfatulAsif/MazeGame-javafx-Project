@@ -1,4 +1,12 @@
 # MazeGame-javafx-Project
+
+```
+This is a game about:
+Man vs Time
+Vehicle vs Maze
+Keyboard vs Pixels
+```
+
 <img src = "1.PNG" width = "480" height = "288">
 <img src = "2.PNG" width = "480" height = "288">
 <img src = "3.PNG" width = "480" height = "288">
