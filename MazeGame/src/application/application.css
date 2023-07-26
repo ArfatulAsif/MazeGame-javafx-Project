@@ -1,0 +1,82 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.startgame{
+	-fx-text-fill:indigo;
+  
+      -fx-font-size: 34px;
+  -fx-background-color:transparent;
+  
+	
+}
+
+.startgame:hover{
+	-fx-text-fill:coral;
+	
+}
+.buttonsofsecondpage{
+	
+	-fx-text-fill:indigo;
+  
+      -fx-font-size: 34px;
+  -fx-background-color:Aquamarine;
+	
+	
+	
+}
+
+.buttonsofsecondpage:hover{
+	
+	-fx-text-fill:Gold;
+  
+      -fx-font-size: 34px;
+  -fx-background-color:transparent;
+	
+	
+	
+}
+
+
+.buttonoflevels{
+	-fx-text-fill:Maroon;
+  
+      
+  -fx-background-color:red;
+	
+}
+
+.buttonoflevels:hover{
+	-fx-text-fill:Maroon;
+    -fx-background-color:white;
+         -fx-border-radius: 50px;
+   -fx-border-color:white;
+
+	
+}
+
+.backtolevels{
+	-fx-text-fill:indigo;
+  
+      -fx-font-size: 34px;
+  -fx-background-color:Aquamarine;
+}
+
+.backtolevels:hover{
+	-fx-text-fill:Gold;
+  
+      -fx-font-size: 34px;
+  -fx-background-color:transparent;
+}
+
+
+.steadylevel
+{
+	-fx-background-color:coral;
+}
+
+.timerlevel
+{
+	-fx-background-color:white;
+}
+
+
+

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Point3D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.stage15">
+   <children>
+      <ImageView fx:id="back" fitHeight="768.0" fitWidth="1366.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@stage15.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="38.0" layoutY="23.0" mnemonicParsing="false" onAction="#backtolabelpage" prefHeight="60.0" prefWidth="122.0" styleClass="backtolevels" stylesheets="@application.css" text="back">
+         <font>
+            <Font name="Arial Black" size="10.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="272.0" layoutY="22.0" prefHeight="107.0" prefWidth="226.0" styleClass="steadylevel" text="TIME LEFT">
+         <stylesheets>
+            <URL value="@application.css" />
+            <URL value="@application.css" />
+         </stylesheets>
+         <font>
+            <Font name="Comic Sans MS" size="26.0" />
+         </font>
+      </Label>
+      <Label fx:id="timerLabel" alignment="CENTER" layoutX="266.0" layoutY="131.0" prefHeight="54.0" prefWidth="236.0" styleClass="timerlevel" stylesheets="@application.css" text="0">
+         <font>
+            <Font name="Arial" size="36.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="916.0" layoutY="12.0" prefHeight="108.0" prefWidth="219.0" styleClass="steadylevel" stylesheets="@application.css" text="YOUR SCORE">
+         <font>
+            <Font name="Comic Sans MS" size="29.0" />
+         </font>
+      </Label>
+      <Label fx:id="scoreLabel" alignment="CENTER" layoutX="903.0" layoutY="122.0" prefHeight="64.0" prefWidth="245.0" styleClass="timerlevel" stylesheets="@application.css" text="0">
+         <font>
+            <Font name="Arial" size="36.0" />
+         </font>
+      </Label>
+      <Rectangle fx:id="rect2" arcHeight="5.0" arcWidth="5.0" fill="#262846" height="551.0" layoutX="33.0" layoutY="188.0" stroke="#089759" strokeType="INSIDE" width="35.0" />
+      <Rectangle fx:id="rect1" arcHeight="5.0" arcWidth="5.0" fill="#321f65" height="32.0" layoutX="65.0" layoutY="190.0" stroke="BLACK" strokeType="INSIDE" width="1076.0" />
+      <Rectangle fx:id="rect3" arcHeight="5.0" arcWidth="5.0" fill="#313561" height="32.0" layoutX="69.0" layoutY="712.0" stroke="BLACK" strokeType="INSIDE" width="1073.0" />
+      <Rectangle fx:id="rect4" arcHeight="5.0" arcWidth="5.0" fill="#333957" height="558.0" layoutX="1141.0" layoutY="188.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle fx:id="rect5" arcHeight="5.0" arcWidth="5.0" fill="#fcfcfc" height="88.0" layoutX="278.0" layoutY="450.0" stroke="BLACK" strokeType="INSIDE" width="144.0" />
+      <Rectangle fx:id="rect6" arcHeight="5.0" arcWidth="5.0" fill="#fcfcfc" height="108.0" layoutX="171.0" layoutY="272.0" stroke="BLACK" strokeType="INSIDE" width="145.0" />
+      <Rectangle fx:id="rect7" arcHeight="5.0" arcWidth="5.0" fill="#fcfcfc" height="64.0" layoutX="359.0" layoutY="629.0" stroke="BLACK" strokeType="INSIDE" width="64.0" />
+      <Rectangle fx:id="rect8" arcHeight="5.0" arcWidth="5.0" fill="#fcfcfc" height="117.0" layoutX="502.0" layoutY="364.0" stroke="BLACK" strokeType="INSIDE" width="115.0" />
+      <ImageView fx:id="vehicle" fitHeight="17.0" fitWidth="65.0" layoutX="976.0" layoutY="245.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@spaceship45.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="goalflag" fitHeight="76.0" fitWidth="68.0" layoutX="445.0" layoutY="501.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Goalflag.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle fx:id="rect9" arcHeight="5.0" arcWidth="5.0" fill="#fcfcfc" height="48.0" layoutX="266.0" layoutY="222.0" stroke="BLACK" strokeType="INSIDE" width="184.0" />
+      <Rectangle fx:id="rect11" arcHeight="5.0" arcWidth="5.0" fill="#fcfcfc" height="94.0" layoutX="531.0" layoutY="506.0" stroke="BLACK" strokeType="INSIDE" width="115.0" />
+      <Rectangle fx:id="rect12" arcHeight="5.0" arcWidth="5.0" fill="#fcfcfc" height="145.0" layoutX="1002.0" layoutY="409.0" stroke="BLACK" strokeType="INSIDE" width="123.0" />
+      <Rectangle fx:id="rect10" arcHeight="5.0" arcWidth="5.0" fill="#fcfcfc" height="94.0" layoutX="79.0" layoutY="468.0" stroke="BLACK" strokeType="INSIDE" width="164.0" />
+      <Rectangle fx:id="rect13" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="94.0" layoutX="676.0" layoutY="266.0" stroke="BLACK" strokeType="INSIDE" width="150.0" />
+      <Rectangle fx:id="rect14" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="54.0" layoutX="506.0" layoutY="223.0" stroke="BLACK" strokeType="INSIDE" width="86.0" />
+      <Rectangle fx:id="rect16" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="52.0" layoutX="835.0" layoutY="336.0" stroke="BLACK" strokeType="INSIDE" width="74.0" />
+      <Rectangle fx:id="rect17" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="87.0" layoutX="928.0" layoutY="293.0" stroke="BLACK" strokeType="INSIDE" width="99.0" />
+      <Rectangle fx:id="rect15" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="117.0" layoutX="726.0" layoutY="415.0" stroke="BLACK" strokeType="INSIDE" width="113.0" />
+      <Rectangle fx:id="rect18" arcHeight="5.0" arcWidth="5.0" fill="#fcfcfc" height="72.0" layoutX="397.0" layoutY="325.0" stroke="BLACK" strokeType="INSIDE" width="69.0" />
+      <Rectangle fx:id="rect19" arcHeight="5.0" arcWidth="5.0" fill="#fcfcfc" height="76.0" layoutX="814.0" layoutY="600.0" stroke="BLACK" strokeType="INSIDE" width="123.0" />
+      <Rectangle fx:id="rect20" arcHeight="5.0" arcWidth="5.0" fill="#fcfcfc" height="48.0" layoutX="740.0" layoutY="563.0" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+      <Rectangle fx:id="rect21" arcHeight="5.0" arcWidth="5.0" fill="#fcfcfc" height="48.0" layoutX="264.0" layoutY="576.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <ImageView fx:id="goalflag1" fitHeight="76.0" fitWidth="68.0" layoutX="873.0" layoutY="416.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Goalflag.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="gameover" fitHeight="569.0" fitWidth="863.0" layoutX="255.0" layoutY="175.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@gameover1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="youwin" fitHeight="675.0" fitWidth="1175.0" layoutX="104.0" layoutY="131.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@YOUWIIIIINNNdfdf.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="showscoreatendlabel" alignment="CENTER" layoutX="427.0" layoutY="617.0" prefHeight="125.0" prefWidth="504.0" styleClass="timerlevel" stylesheets="@application.css" text="0" visible="false">
+         <font>
+            <Font name="Arial Black" size="53.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Label>
+      <Button fx:id="nextButton" layoutX="969.0" layoutY="629.0" mnemonicParsing="false" onAction="#backtolabelpage" prefHeight="101.0" prefWidth="372.0" styleClass="backtolevels" stylesheets="@application.css" text="YOU FINISHED" visible="false" />
+   </children>
+   <rotationAxis>
+      <Point3D />
+   </rotationAxis>
+</AnchorPane>
