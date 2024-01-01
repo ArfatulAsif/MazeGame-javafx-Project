@@ -6,7 +6,7 @@ Man vs Time
 Vehicle vs Maze
 Keyboard vs Pixels
 ```
-
+<img src = "Maze Game by Arfatul islam Asif.gif" width = "480" height = "288">
 <img src = "1.PNG" width = "480" height = "288">
 <img src = "2.PNG" width = "480" height = "288">
 <img src = "3.PNG" width = "480" height = "288">
